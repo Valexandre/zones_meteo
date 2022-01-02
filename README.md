@@ -1,4 +1,4 @@
-# Comment j'ai quantifié les inégalités de traitement météorologiques entre Vannes et Strasbourg
+# Comment j'ai quantifié les inégalités de traitement météorologiques entre Brest et Dijon
 
 
 ## Introduction (Epic version) 
@@ -67,3 +67,27 @@ Inconvénient :
 - la présentatrice n'étant pas habillée de pied en cap de la même couleur, la présence de sa main, de ses cheveux ou de sa robe sur une même zone créera une distance différente sur la zone, bien que le résultat soit le même pour le spectateur : une zone cachée.
 
 ## Résultats
+
+Image par image, on peut voir le calcul : d'une vidéo vers une image (à gauche), et de cette image, on sort une couleur médiane par zone (au centre), et de cette couleur médiane on calcule la distance à la couleur médiane lorsque la carte est dégagée (à droite).
+
+![Trois phases](img/image_couleur_distance.gif)
+
+Au global, entre les bulletins du 2, 3, 11, 12, 13 et 14 janvier 2019 (c'est dire si l'étude est sérieuse !), on constate un rapport de 1 à 21 entre Vannes et Gap sur les écarts de couleurs affichées.
+
+![Distance_toutes_seq](img/Distance%20moyenne%20toutes%20journées%20toutes%20séquences.jpg)
+
+Pour la partie qui est le moins soumise à des variations de couleurs, car pas soumise à des animations, i.e. les séquences liées aux températures du lendemain, la zone où la variation est la plus faible connaît une distance de 0,16 à sa référence tandis que celle où la variation est la plus forte présente une distance de 43, soit un ratio de 1 à 268. Même ordre de grandeur pour les températures de l'après-midi avec un ratio de 1 pour 261.
+
+Autrement dit, selon ce calcul si vous habitez Dijon, vous aurez un accès à l'affichage des températures du lendemain matin.260 fois moins obstrué que si vous habitez Brest.
+
+Pour ce qui est de la partie relative aux prévisions de couverture (nuages, pluie, ciel bleu, etc.), le rapport est moins fort avec un ordre de grandeur de 1 pour 34 le matin et 1 pour 55 l'après-midi.
+
+**Voilà donc la conclusion de notre enquête : 20 fois plus difficile de lire ce qui concerne une zone bretonne qu'une zone de l'est ou du sud-est.**
+
+## Code
+
+Il arrivera bientôt.
+
+## A noter
+
+Comme vous pouvez vous en douter, ce projet est purement sur mon temps personnel et n'a pas vocation à enfreindre les droits à l'image de la (excellente au demeurant) présentatrice en question, que je remercie d'avoir publié ces vidéos et ainsi m'avoir permis d'avoir enfin une réponse à une question de canapé.
