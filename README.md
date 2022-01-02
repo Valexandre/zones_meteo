@@ -3,7 +3,7 @@
 
 ## Introduction (Epic version) 
 
-Normand de naissance et de coeur, je n'ai jamais accordé une place très importante aux différents bulletins météo, ne sachant que trop bien ce dont allait être fait la journée. Ayant eu le privilège de connaître des personnes venant d'autres horizons, notamment de la lointaine et exotique Bretagne, j'ai réalisé que, dans d'autres lieux, les informations météorologiques pouvaient apporter autre chose que "Bah demain, y r'pleut". Avec plusieurs expériences de bulletins météo télévisés et une formation de datajournaliste derrière moi, je me suis retrouvé un soir sur un canapé devant un constat et un défi : pourquoi la dame de la météo (ça a toujours été une dame quand j'ai regardé) commente les températures des villes orientales en se plaçant au dessus de la Bretagne, laissant ainsi aux intéressés d'autant moins de temps pour voir et lire les informations par elle obstruées et ne pourrait-on pas mesurer cette inégalité d'accès à l'information ?
+Normand de naissance et de coeur, je n'ai jamais accordé une place très importante aux différents bulletins météo, ne sachant que trop bien ce dont allait être faite la journée. Ayant eu le privilège de connaître des personnes venant d'autres horizons, notamment de la lointaine et exotique Bretagne, j'ai réalisé que, dans d'autres lieux, les informations météorologiques pouvaient apporter autre chose que "Bah demain, y r'pleut". Avec plusieurs expériences de bulletins météo télévisés et une formation de datajournaliste derrière moi, je me suis retrouvé un soir sur un canapé devant un constat et un défi : pourquoi la dame de la météo (ça a toujours été une dame quand j'ai regardé) commente les températures des villes orientales en se plaçant au dessus de la Bretagne, laissant ainsi aux intéressés d'autant moins de temps pour voir et lire les informations par elle obstruées et ne pourrait-on pas mesurer cette inégalité d'accès à l'information ?
 
 Ceci est mon histoire.
 
@@ -16,7 +16,7 @@ Ce projet, complètement con sur le fond, consiste à tenter de mesurer les vari
 ### Matériau
 
 - Source vidéo : Je me suis appuyé sur le bulletin météo de France 2 précédant le journal de 20h, tel qu'il a été posté sur la chaîne Youtube de Anaïs Baydemir (la fameuse dame de la météo). 
-- Logiciel : ffmpeg et R, avec les packages imagemagick
+- Logiciel : ffmpeg et R, avec les packages imagemagick, tidyverse et colorscale.
 
 ### Principe du bulletin météo
 
