@@ -86,7 +86,7 @@ Pour ce qui est de la partie relative aux prévisions de couverture (nuages, plu
 
 ## Code
 
-Il arrivera bientôt.
+Est en R et se trouve [ici](https://raw.githubusercontent.com/Valexandre/zones_meteo/main/code.R)
 
 ## A noter
 
