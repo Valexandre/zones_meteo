@@ -84,6 +84,8 @@ Pour ce qui est de la partie relative aux prévisions de couverture (nuages, plu
 
 **Voilà donc la conclusion de notre enquête : 20 fois plus difficile de lire ce qui concerne une zone bretonne qu'une zone de l'est ou du sud-est.**
 
+Ce projet a été mis en lumière par l'excellent Jules Grandin, dans sa chronique sur Quotidien en mai 2022, consultable [ici](https://www.tf1.fr/tmc/quotidien-avec-yann-barthes/videos/le-cartographe-levolution-du-changement-climatique-vue-par-les-cartes-meteo-94678088.html) 
+
 ## Code
 
 Est en R et se trouve [ici](https://raw.githubusercontent.com/Valexandre/zones_meteo/main/code.R)
